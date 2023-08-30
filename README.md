@@ -5,7 +5,7 @@
 Galactic github is a micropython plugin for the Pimoroni Galactic Unicorn LED matrix.
 It displays your github contributions.
 
-![image](./gu_example.png)
+![image](./gg_example.png)
 
 ## Requirements
 1. [Pico W Smart LED Matrix – Galactic Unicorn (53x11 – 583 pixels)](https://shop.pimoroni.com/products/space-unicorns?variant=40842033561683)
@@ -41,7 +41,7 @@ The onboard wifi can be a bit finicky. If you're having trouble connecting, try 
 2. Unplug Pico W and wait a few minutes before attempting to connect again.
 
 ## Future Improvements
- - [ ] Ping github API every 30 seconds to update contributions. Currently unavailable due to memory leaks in the ```urequests``` package's json parser.
+ - [x] Ping github API every 60 seconds to update contributions. Currently unavailable due to memory leaks in the ```urequests``` package's json parser.
  - [ ] Persistent state storage
  - [ ] Play a sound and display celebratory message when new contributions are detected
  - [ ] Create a 3D printed stand and wall mount for the Galactic Unicorn
