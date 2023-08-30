@@ -63,7 +63,7 @@ class github_matrix():
         self.parse_calendar_json()
         self.calculate_week_pixels()
         self.check_for_activity_change()
-        self.draw_pixel_array()
+        self.paint_by_mode()
 
     def get_github_content(self):
         # Due to memory restrictions, it's necessary todelete previous calendar data in order to free memory needed for parsing
