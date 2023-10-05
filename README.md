@@ -19,7 +19,7 @@ It displays your github contributions.
     * ```GITHUB_USERNAME```  <-- Github account  github username
     * ```GITHUB_TOKEN``` <-- Github personal access token
     * ```WIFI_SSID``` <-- 2.4GHz WiFi SSID
-    * ```WIFI_PASSWORD``` <--2.5GHz WiFi password
+    * ```WIFI_PASSWORD``` <--2.4GHz WiFi password
 3. Connect to the Galactic Unicorn's onboard Raspberry Pi Pico W via USB
 4. Copy ```main.py``` into the root directory of the Pico W.
 
